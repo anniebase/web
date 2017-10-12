@@ -1,0 +1,214 @@
+@import url("reset.css");
+
+body{
+	background-color: #D2DBD3;
+}
+#ME{
+	width: 170px;
+	height: 481px;
+
+	background-image:url(img/icon.png);
+	background-position: -405px -5px; 
+	background-size: 790px;
+	position: fixed;
+	left: 110px;
+	bottom: 20px;
+	z-index: 99;
+	text-indent: -9999px;
+
+
+}
+
+#WORD{
+	width: 30px;
+	height: 481px;
+	background-image:url(img/icon.png);
+	background-position: -720px -8px; 
+	background-size: 1000px;
+	position: fixed;
+	right: 165px;
+	top: 10px;
+	text-indent: -9999px;	
+}
+
+#WARP{
+	width: 880px;
+	height: 950px;
+	margin: auto;
+	background-color:#FFF; 
+    box-shadow: 4px 0px 6px rgba(60%, 60%, 60%, 0.5) ;
+    z-index: 10;
+}
+
+#HEADER{
+	width: 880px;
+	height: 115px;
+	background-color: #FFF;
+
+}
+#TITLE{
+	display: block;
+	width: 880px;
+	height: 115px;
+	background-image: url(img/icon.png);
+
+}
+#TITLE h1{
+    padding-top: 40px;
+    padding-left: 190px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+#HEADER ul{
+	width: 880px;
+    margin: 5px 22px;
+
+}
+#HEADER li{
+	float: left;
+
+}
+
+#HEADER li a{
+
+	display: block;
+	width: 80px;
+	height: 50px;
+	background-image: url(img/icon.png);
+	text-indent: -9999px;
+	margin-left: 70px;
+}
+
+#HEADER li.aa a{ background-position: -20px -115px ;   }
+#HEADER li.bb a{ background-position: -130px -115px ;   }
+#HEADER li.cc a{ background-position: -260px -115px ;   }
+#HEADER li.dd a{ background-position: -404px -115px ;   }
+#HEADER li.ee a{ background-position: -524px -115px ;   }
+
+#HEADER li.aa a:hover { background-position: -20px -230px ;   }
+#HEADER li.bb a:hover{ background-position: -130px -230px ;   }
+#HEADER li.cc a:hover{ background-position: -260px -230px ;   }
+#HEADER li.dd a:hover{ background-position: -404px -230px ;   }
+#HEADER li.ee a:hover{ background-position: -524px -230px ;   }
+
+#CONTENT{
+	clear: both;
+	width: 600px;
+	height: 140px;
+	text-indent: 2em;
+	background-color:#FFF;
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+    line-height: 1.8;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	box-shadow: 4px 4px 6px rgba(60%, 60%, 60%, 0.5) ;
+	border-radius: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #DDD;
+}
+
+#MID{
+    margin: 0 auto;
+    background-color: #FFF;
+    height: 100px;
+    width: 700px;
+}
+
+#MID .PIC{
+	margin: 50px auto;
+	background-image: url(img/icon.png);
+	width: 30px;
+	height: 15px;
+	background-position:-36px -190px; 
+	text-indent: -9999px;
+
+}
+
+#MID p{
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	font-size: 16px;
+	text-align: center;
+}
+
+#BOX1 a{ 
+	clear:both;
+	background-image: url(img/icon.png);
+	background-position: -13px -182px;
+	background-size: 1000px;
+	width: 150px;
+	height: 150px;
+	background-color: #FF8;
+	float:left;
+	margin-left: 170px;
+	border-radius: 15px;
+	box-shadow: 4px 4px 6px rgba(60%, 60%, 60%, 0.5) ; 
+	text-indent: -9999px;
+}
+
+
+#BOX2 a{
+	background-image: url(img/icon.png);	
+	background-position: -165px -171px;
+	background-size: 955px;
+	width: 150px;
+	height: 150px;
+	background-color: #8FF;
+	float:right;
+	margin-right: 170px;
+    border-radius: 15px;
+	box-shadow: 4px 4px 6px rgba(60%, 60%, 60%, 0.5) ;
+	text-indent: -9999px;
+}
+
+
+
+#BOX3 a{
+	float: left;
+	background-color: #900;
+    margin: 0 45px;
+	background-image: url(img/icon.png);
+	background-position: -325px -171px;
+	background-size: 958px;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 6px rgba(60%, 60%, 60%, 0.5) ;
+}
+
+
+#BOX1 a:hover{
+	box-shadow: 0 0 6px rgba(60%, 60%, 60%, 0.5) ;
+}
+
+#BOX2 a:hover{
+	box-shadow: 0 0 6px rgba(60%, 60%, 60%, 0.5) ;
+}
+
+#BOX3 a:hover{
+	box-shadow: 0 0 6px rgba(60%, 60%, 60%, 0.5) ;
+}
+
+#FOOTER{
+	width: 100%;
+	height: 20px;
+	background-color: #666;
+    clear: both;
+	position: fixed;
+	left:0;
+	bottom:0;
+    z-index: 98;
+
+}
+
+#FOOTER h2{
+	font-size: 12px;
+	color: #FFF;
+	padding: 3px;
+	
+
+}
